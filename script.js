@@ -2,7 +2,7 @@ document.addEventListener("contextmenu", (event) => event.preventDefault());
 
 var started = false;
 
-var audio = new Audio("Twizzy Rich.mp3");
+var audio = new Audio("twizzy.mp3");
 function play() {
 	started = !started;
 	if (started) {
